@@ -11,6 +11,9 @@ a.text-color:hover{
 .mover-isquierda{
     margin-left: 100px ;
 }
+.sticky{
+    position: sticky;
+}
 
 
 
