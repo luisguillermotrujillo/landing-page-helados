@@ -1,4 +1,16 @@
 /*Comienzan las clases de Luis*/
+.text-color{color:green;
+}
+a.text-color:hover{
+    color:red;
+}
+.mover-derecha{
+
+    margin-right: 100px;
+}
+.mover-isquierda{
+    margin-left: 100px ;
+}
 
 
 
