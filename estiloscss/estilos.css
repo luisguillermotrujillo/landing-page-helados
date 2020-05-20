@@ -12,8 +12,12 @@ a.text-color:hover{
     margin-left: 100px ;
 }
 .sticky{
-    position: sticky;
+    top:0;
 }
+.padding-navbar{
+    padding: 10px 0px;
+}
+
 
 
 
