@@ -6,10 +6,10 @@ a.text-color:hover{
 }
 .mover-derecha{
 
-    margin-right: 100px;
+    margin-right: 200px;
 }
-.mover-isquierda{
-    margin-left: 100px ;
+.mover-izquierda{
+    margin-left: 300px ;
 }
 .sticky{
     top:0;
