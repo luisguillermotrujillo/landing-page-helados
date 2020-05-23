@@ -1,23 +1,30 @@
 /*Comienzan las clases de Luis*/
-.text-color{color:green;
+.text-color {
+    color: green;
 }
-a.text-color:hover{
-    color:red;
+
+a.text-color:hover {
+    color: red;
 }
-.mover-derecha{
+
+.mover-derecha {
 
     margin-right: 100px;
 }
-.mover-izquierda{
-    margin-left:50px ;
+
+.mover-izquierda {
+    margin-left: 50px;
 }
-.sticky{
-    top:0;
+
+.sticky {
+    top: 0;
 }
-.padding-navbar{
+
+.padding-navbar {
     padding: 10px 0px;
 }
-.mover-izquierda2{
+
+.mover-izquierda2 {
     margin-left: 200px;
 }
 
@@ -35,3 +42,18 @@ a.text-color:hover{
 
 
 /*Comienzan las clases de michel*/
+@media (min-width:300px) and (max-width: 450px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Comienzan las clases de Gustavo*/
