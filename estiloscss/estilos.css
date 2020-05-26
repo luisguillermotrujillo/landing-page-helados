@@ -1,7 +1,11 @@
 /*Comienzan las clases de Luis*/
-body {
+* {
     box-sizing: border-box;
-    padding: 0px;
+}
+
+body {
+
+    margin: 0;
 }
 
 img {
@@ -73,13 +77,199 @@ a.text-color:hover {
 h2,
 p {
     text-align: center;
-    padding: 20px 0;
+    padding: 40px 0;
+    margin: 10px 0;
 }
 
 p {
     padding: 20px 20px;
 }
 
+.galeria-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin: 1em;
+}
+
+.galeria-content {
+    padding: 1em;
+    flex-grow: 1;
+    min-width: 220px;
+}
+
+.galeria-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Clases del formulario de contacto*/
+/*
+Estilos footer y menu principal
+*/
+
+.cabecera {
+    background-color: #EF6C00;
+    color: white;
+
+}
+
+.logo-imagen {
+    align-items: initial;
+
+}
+
+.logo-imagenCanjapp {
+    float: inline-start;
+    margin-left: 2em;
+    width: 5%;
+
+}
+
+.main-content {
+    padding: 1em;
+    background-color: white;
+}
+
+.nav-tatiana {
+    padding: 1em;
+    font: sans serif;
+    font-size: 15px;
+}
+
+.pie-pagina {
+    padding-top: 1em;
+    background-color: #EF6C00;
+    color: white;
+}
+
+.iconos {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.iconos .icon {
+    display: block;
+    padding: 1em;
+    font-size: 2em;
+    color: inherit;
+}
+
+.iconos .icon:hover {
+    color: #D96200;
+}
+
+.copyright {
+    padding: 1em;
+    background-color: #D96200;
+    color: #efebe9;
+    text-align: center;
+}
+
+/*
+Estilos footer y menu principal
+*/
+
+
+
+.ancho {
+    width: 40%;
+}
+
+.button-color {
+    background-color: #EF6C00;
+    opacity: 0.9;
+}
+
+.font-color {
+    color: whitesmoke
+}
+
+input[type="email"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+input[type="password"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+input[type="text"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+input[type="tel"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+a.mx-2:hover {
+    color: #F9A825;
+}
+
+.background-image {
+    background-image: url("../Imagenes/64857.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*background: rgb(247, 224, 196, 0.9);*/
+    /*filter: blur(1px);*/
+
+}
+
+.opacidad {
+    opacity: 0.9;
+}
+
+.float {
+    float: left;
+}
+
+.card1 {
+    border: none;
+    width: 500px;
+    margin-left: 50px;
+    /* background: rgb(241, 213, 179, 0.3);*/
+
+}
+
+.card2 {
+    border: none;
+    /* margin-right: 50px;*/
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: rgb(243, 242, 240);
+    /*opacity: 0.9;*/
+}
+
+.button-color:hover {
+
+    opacity: 1.0;
+    color: aliceblue;
+}
+
+.font-size-Anuncio {
+    font-size: 70px;
+    color: aliceblue;
+    opacity: 0.9;
+
+}
+
+.border-checkbox {
+    border: 1px solid #F9A825;
+}
+
+.border-checkbox:hover {
+    color: #F9A825;
+}
+
+.parrafo-estilos {
+    padding: 0px;
+    margin: 0px;
+}
 
 
 
@@ -88,10 +278,6 @@ p {
 
 
 
-
-
-/*Comienzan las clases de michel*/
-@media (min-width:300px) and (max-width: 450px) {}
 
 
 
