@@ -22,7 +22,7 @@
 
 
             <nav
-                class="nav justify-content-around bg-light fixed-top sticky padding-navbar navbar navbar-expand-lg bg-white navbar-light ">
+                class="nav justify-content-around fixed-top sticky padding-navbar navbar navbar-expand-lg navbar-dark nav-transparente">
                 <div class="navbar-brand mover-izquierda" href="#">
                     logo
                 </div>
@@ -82,9 +82,9 @@
                 </div>
             </main>
             <!--Quienes somos-->
-            <div>
-                <h2>Quienes somos</h2>
-                <p>
+            <div class="bg-quienes-somos text-color ">
+                <h2 class="quienes-somos-bg-col padding-quienes-somos">Quienes somos</h2>
+                <p class="quienes-somos-bg-col padding-parrafo">
                     Somos una empresa preocupada por el medio ambiente y la salud de las personas. Nuestros productos
                     usan empaques biodegradables y los mejores ingredientes para disfrutar de un buen helado sin
                     preocuparnos de la cantidad de azúcar, grasas que tiene nuestro producto.
@@ -178,25 +178,52 @@
                 </div>
             </div>
             <!--Footer de michel-->
-            <footer class="page-footer font-small bg-warning">
-                <div>
-                    <ul class="list-unstyled list-inline text-center">
-                        <li class="list-inline-item">
-                            <a class="btn-floating btn-fb mx-1" href="#">
-                                <i class="fa fa-facebook" aria-hidden="true"></i>
-                            </a>
+            <footer class="page-footer font-small bg-warning padding-footer">
+                <div class="d-flex justify-content-center">
+                    <ul class="nav padding-footer2">
+                        <li>
+                            <a class="nav-link active" href="#">Productos</a>
                         </li>
-                        <li class="list-inline-item">
-                            <a class="btn-floating btn-tw mx-1" href="#">
-                                <i class="fa fa-twitter" aria-hidden="true"></i>
-                            </a>
+                        <li>
+                            <a class="nav-link" href="#">Quienes Somos</a>
                         </li>
-                        <li class="list-inline-item">
-                            <a class="btn-floating mx-1" href="">
+                        <li>
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
 
-                            </a>
-                        </li>
                     </ul>
+
+                </div>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur, id.
+                </p>
+                <div class="container">
+                    <hr>
+                </div>
+
+                <ul class="list-unstyled list-inline text-center">
+                    <li class="list-inline-item">
+                        <a class="btn-floating mx-1" href="#">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
+                    <li class="list-inline-item">
+                        <a class="btn-floating mx-1" href="">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="btn-floating mx-1" href="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer-copyright text-center py-3">
+                    @ 2020 Copyright:
+                    <a href="#">HeladosFrammy.com</a>
                 </div>
             </footer>
 
