@@ -81,23 +81,34 @@ a.text-color:hover {
 }
 
 /* Clases de Quienes Somos*/
+.card {
+    border: solid 1px rgb(245, 250, 248);
+    background-color: rgba(210, 180, 140, 0.301);
+    width: 350px;
+    margin: 150px 0;
+
+}
+
 h2,
 p {
     text-align: center;
     margin: 0;
 }
 
-.padding-quienes-somos {
-    padding-top: 200px;
+.h2-margenes {
+    padding: 40px 10px;
+}
+
+.padding-h2 {
+    padding-top: 50px;
     padding-bottom: 30px;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 .padding-parrafo {
-    padding-bottom: 200px;
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 .bg-quienes-somos {
@@ -112,11 +123,12 @@ p {
 }
 
 /*Clases del Blog*/
+
 .galeria-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 1em;
-    margin: 1em;
+    /*padding: 1em;*/
+    /*margin: 1em;*/
 }
 
 .galeria-content {
@@ -130,6 +142,7 @@ p {
     justify-content: center;
     align-items: center;
 }
+
 
 
 /*Clases del formulario de contacto*/
