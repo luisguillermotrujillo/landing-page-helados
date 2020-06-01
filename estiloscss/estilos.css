@@ -12,6 +12,13 @@ img {
     max-width: 100%;
 }
 
+.menu {
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
 .text-color {
     color: white;
 }
@@ -22,11 +29,19 @@ a.text-color:hover {
 
 .mover-derecha {
 
-    margin-right: 100px;
+    margin-right: 50px;
+}
+
+.mover-derecha2 {
+    margin-right: 90px;
 }
 
 .mover-izquierda {
-    margin-left: 50px;
+    margin-left: 70px;
+}
+
+.mover-izquierda3 {
+    margin-left: 150px;
 }
 
 .sticky {
@@ -37,8 +52,10 @@ a.text-color:hover {
     padding: 10px 0px;
 }
 
-.mover-izquierda2 {
-    margin-left: 200px;
+
+
+ul>li {
+    margin-left: 50px;
 }
 
 .nav-transparente {
@@ -53,41 +70,75 @@ a.text-color:hover {
         min-width: 100%;
         max-height: 600px;
     }
+
+    .parrafo {
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .card {
+        border: solid 1px rgb(208, 211, 210);
+        background-color: rgba(210, 180, 140, 0.301);
+        width: 600px;
+        margin: 230px 0;
+
+    }
 }
 
-@media (min-width:600px) and (max-width:768px) {
+@media (min-width:640px) and (max-width:768px) {
     .carousel-inner>.carousel-item>img {
 
         min-width: 100%;
         max-height: 500px;
     }
 
+    .parrafo {
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: sans-serif;
+    }
+
+    .card {
+        border: solid 1px rgb(208, 211, 210);
+        background-color: rgba(210, 180, 140, 0.301);
+        width: 600px;
+        margin: 230px 0px;
+
+    }
 }
 
-@media (min-width:400px) and (max-width: 600px) {
+
+
+@media (max-width: 640px) {
     .carousel-inner>.carousel-item>img {
 
         min-width: 100%;
         max-height: 400px;
     }
-}
 
-@media(max-width:400px) {
-    .carousel-inner>.carousel-item>img {
+    .parrafo {
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: sans-serif;
+    }
 
-        min-width: 100%;
-        max-height: 300px;
+    .card {
+        border: solid 1px rgb(208, 211, 210);
+        background-color: rgba(210, 180, 140, 0.301);
+        width: 300px;
+        margin: 230px 0;
+
     }
 }
 
-/* Clases de Quienes Somos*/
-.card {
-    border: solid 1px rgb(245, 250, 248);
-    background-color: rgba(210, 180, 140, 0.301);
-    width: 350px;
-    margin: 150px 0;
 
-}
+
+/* Clases de Quienes Somos*/
+
 
 h2,
 p {
@@ -104,12 +155,7 @@ p {
     padding-bottom: 30px;
 }
 
-.padding-parrafo {
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
 
-}
 
 .bg-quienes-somos {
     background-image: url("./imagenes/frutas-1.jpg");
